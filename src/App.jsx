@@ -19,6 +19,11 @@ function App() {
          {/*
         <Experience />
         */}
+        <Marquee>
+          <Skill />
+          <Skill />
+          <Skill />
+        </Marquee>
         <Projects />
     </div>
   );
