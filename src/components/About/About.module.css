@@ -17,6 +17,7 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    margin-bottom: 33px;
 
 }
 
@@ -117,4 +118,41 @@
         padding-left: 0;
         padding-right: 0; 
     }
+}
+
+
+.highlight {
+  color: #00d4ff;
+  background: linear-gradient(to right, #00d4ff, #8a2be2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px rgba(0, 212, 255, 0.4);
+  }
+  to {
+    text-shadow: 0 0 15px rgba(138, 43, 226, 0.8);
+  }
+}
+
+.highlightFun {
+  color: #ff70e6;
+  font-weight: 500;
+  background: rgba(255, 112, 230, 0.1);
+  padding: 0 4px;
+  border-radius: 4px;
+  font-style: italic;
+}
+
+.highlightSkill {
+  color: #00ffa6;
+  font-weight: 600;
+  background: rgba(0, 255, 166, 0.1);
+  padding: 0 4px;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
 }

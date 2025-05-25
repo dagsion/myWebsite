@@ -1,30 +1,97 @@
 [
+  {
+    "title": "C",
+    "imageSrc": "skills/c.svg",
+    "category": "Embedded"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "skills/c++.svg",
+    "category": "Embedded"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.svg",
+    "category": "General"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.svg",
+    "category": "General"
+  },
+  {
+    "title": "MATLAB",
+    "imageSrc": "skills/matlab.svg",
+    "category": "General"
+  },
+  {
+    "title": "PyTorch",
+    "imageSrc": "skills/pytorch.svg",
+    "category": "General"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.svg",
+    "category": "Web"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.svg",
+    "category": "Web"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png",
+    "category": "Web"
+  },
     {
-      "title": "HTML",
-      "imageSrc": "skills/html.png"
-    },
-    {
-      "title": "CSS",
-      "imageSrc": "skills/css.png"
-    },
-    {
-      "title": "React",
-      "imageSrc": "skills/react.png"
-    },
-    {
-      "title": "Node",
-      "imageSrc": "skills/node.png"
-    },
-    {
-      "title": "GraphQL",
-      "imageSrc": "skills/graphql.png"
-    },
-    {
-      "title": "MongoDB",
-      "imageSrc": "skills/mongodb.png"
-    },
-    {
-      "title": "Figma",
-      "imageSrc": "skills/figma.png"
-    }
-  ]
+    "title": "HTML",
+    "imageSrc": "skills/html.png",
+    "category": "Web"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png",
+    "category": "Web"
+  },
+  {
+    "title": "Node",
+    "imageSrc": "skills/node.png",
+    "category": "Web"
+  },
+  {
+    "title": "GraphQL",
+    "imageSrc": "skills/graphql.png",
+    "category": "Web"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png",
+    "category": "Web"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.svg",
+    "category": "Tools"
+  },
+  {
+    "title": "Linux",
+    "imageSrc": "skills/linux.svg",
+    "category": "Tools"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png",
+    "category": "Creative"
+  },
+  {
+    "title": "Lightroom",
+    "imageSrc": "skills/lightroom.png",
+    "category": "Creative"
+  },
+  {
+    "title": "Photoshop",
+    "imageSrc": "skills/ps.svg",
+    "category": "Creative"
+  }
+]

@@ -16,18 +16,20 @@ export const About = () => {
         />
         */}
         <div className={styles.content}>
-          <p></p>
-          <p className={styles.aboutText}>
-          Hi, my name is <b>David Xu</b>. I'm from Vancouver, BC and I'm currently studying electrical engineering at University of Toronto. I am passionate the development of niche technology.
-          </p>
-          <p className={styles.aboutText}>
-          On the hardware side, I have experience with PCB layout and design, MCUs, and FPGA; on the side, I have done work on motor, solenoid drives, computer organization, and SoC platform architecture.
-          </p>
-          <p className={styles.aboutText}>
-          On the software side, I have done full-stack web development with the MERN stack, and embedded systems software. I also have experiences with game development, and iOS development.
-          </p>
-          <p className={styles.aboutText}> I have a lot of hobbies. Currently I am building my Flipside website. Stay tuned!</p>
+        <p className={styles.aboutText}>
+          Hi, my name is <b className={styles.highlight}>David Xu</b>. I'm from Vancouver, BC and I'm currently studying electrical engineering at <b className={styles.highlight}>University of Toronto</b>. I am passionate about the development of niche technology.
+        </p>
+        <p className={styles.aboutText}>
+          On the hardware side, I have experience with <b className={styles.highlightSkill}>PCB</b> layout and design, <b className={styles.highlightSkill}>MCUs</b>, and <b className={styles.highlightSkill}>FPGAs</b>; I've also worked on <b className={styles.highlightSkill}>robotic modeling</b>, <b className={styles.highlightSkill}>3D modeling</b>, and <b className={styles.highlightSkill}>SoC</b> platform architecture.
+        </p>
+        <p className={styles.aboutText}>
+          On the software side, I've built <b className={styles.highlightSkill}>full-stack web apps</b> with the MERN stack, and developed <b className={styles.highlightSkill}>embedded systems</b> software. I also have experience in <b className={styles.highlightSkill}>game development</b>, <b className={styles.highlightSkill}>digital music plugins</b>, and iOS apps. Lately, I've even been training my own <b className={styles.highlightSkill}>AI model</b>!
+        </p>
+        <p className={styles.aboutText}>
+          I have a lot of hobbies—you might discover them through my <b className={styles.highlightFun}>“trademark”</b>. Right now, I’m building my Flipside website. Stay tuned!
+        </p>
         </div>
+
 
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
