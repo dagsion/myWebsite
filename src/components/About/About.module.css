@@ -118,6 +118,31 @@
         padding-left: 0;
         padding-right: 0; 
     }
+    .aboutItems {
+      flex-direction: row;
+      gap: 20px;
+      align-items: stretch;
+      width: 100%;
+    }
+
+    .aboutItem h3,
+    .aboutItem p {
+      font-size: 20px;
+      line-height: 1.4;
+    }
+      .aboutItem {
+      padding: 15px 20px;
+      width: 100%;
+      box-sizing: border-box;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      background: rgba(0, 212, 255, 0.08); /* light blue transparent background */
+      border: 1px solid rgba(0, 212, 255, 0.2); /* soft border */
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 212, 255, 0.1); /* subtle glow */
+  }
+
 }
 
 
