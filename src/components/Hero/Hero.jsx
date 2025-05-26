@@ -28,7 +28,7 @@ export const Hero = () => {
           register, and every social media platform I use Dagsion as my
           username.
         </p>
-        <a href="assets/DavidXu_resume.pdf" className={styles.contactBtn}>
+        <a href="/DavidXu_resume.pdf" className={styles.contactBtn}>
           My Resume
         </a>
       </div>
@@ -41,13 +41,11 @@ export const Hero = () => {
           className={`${styles.vinyl} ${isPlaying ? styles.spinning : ""}`}
           draggable="false"
         />
-        <audio ref={audioRef} src="/assets/hero/rickroll.MP3" preload="auto" />
+        <audio ref={audioRef} src="/rickroll.MP3" preload="auto" />
       </div>
     </section>
   );
 };
-
-      {/* Optional: Keep your hero image and blurs if desired */}
       {/*
       <img
         src={getImageUrl("hero/heroImage.png")}
