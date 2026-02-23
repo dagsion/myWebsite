@@ -28,7 +28,7 @@ export const Hero = () => {
           register, and every social media platform I use Dagsion as my
           username.
         </p>
-        <a href="/DavidXu_resume.pdf" className={styles.contactBtn}>
+        <a href="/Software_Resume-1.pdf" className={styles.contactBtn}>
           My Resume
         </a>
       </div>
